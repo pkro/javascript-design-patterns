@@ -267,4 +267,11 @@ Example: Use different taxes depending on selected country on the fly for shippi
 Example: json conversion to serialize and pass objects from and to server
 ## Mediator pattern
 
+Classes communicate through a mediator object. This way classes don’t depend on each other directly which lowers the coupling.  
+Example: Chatroom object works as a mediator between participant objects to exchange messages  
+Example2: "Tower" acts as mediator between airplanes to exchange positions
+
+
 ## Command pattern
+Encapsulating actions in objects (example: redux)
+"Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations." (designpatternsgame.com)
